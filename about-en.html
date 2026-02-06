@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Accounting Partnership</title>
+  <meta name="description" content="Information about the accounting practices in the partnership and their working principles.">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --bg-light: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #38bdf8;
+      --card: #020617;
+      --border: #1f2933;
+    }
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(180deg, var(--bg), var(--bg-light));
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      background: rgba(15, 23, 42, 0.9);
+      backdrop-filter: blur(8px);
+      z-index: 10;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 1rem;
+      max-width: none; 
+      margin: 0;
+    }
+
+    .logo img {
+      height: 90px;
+      width: auto;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+      align-items: center;
+      margin-left: 0.5rem;
+    }
+
+    nav ul li {
+      display: flex;
+      align-items: center;
+    }
+
+    nav ul li img {
+      width: 28px;
+      height: 17.5px;
+      object-fit: cover;
+      margin-right: 0.2rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      padding: 4rem 1rem;
+    }
+
+    h1,h2,h3 { line-height:1.25; margin-top:0; }
+    h1 { font-size:2.4rem; }
+    h2 { font-size:1.8rem; margin-bottom:1rem; }
+    h3 { font-size:1.2rem; }
+    p { color: var(--muted); }
+
+    .cta {
+      display:inline-block;
+      margin-top:1.5rem;
+      padding:0.7rem 1.2rem;
+      border-radius:6px;
+      background: var(--accent);
+      color:#020617;
+      font-weight:600;
+    }
+    .cta:hover {
+      background: #7dd3fc;
+      text-decoration: none;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+      gap:2rem;
+      margin-top:2rem;
+    }
+
+    .card {
+      background: var(--card);
+      border:1px solid var(--border);
+      border-radius:10px;
+      padding:2rem;
+    }
+
+    .calendar-link {
+      text-align: center;
+      margin: 3rem 0;
+      padding: 2rem;
+      background: var(--card);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+    }
+
+    footer {
+      border-top:1px solid var(--border);
+      padding:2rem 1rem;
+      font-size:0.85rem;
+      color: var(--muted);
+    }
+
+    footer .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    footer p {
+      margin:0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav class="container">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <ul>
+      <li><a href="index-en.html">Home</a></li>
+      <li><a href="about-en.html">About</a></li>
+      <li><a href="services-en.html">Services</a></li>
+      <li><a href="contact-en.html">Contact</a></li>
+      <li>
+        <a href="#" onclick="changeLang('bg')"><img src="bg.png" alt="BG">BG</a> &nbsp;|&nbsp;
+        <a href="#" onclick="changeLang('en')"><img src="us.png" alt="US">US</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<section>
+  <div class="container">
+    <h1>Partnership with Clear Principles</h1>
+    <p>Long-term partners with independent accounting practices, united by high service standards, professional ethics, and clearly defined responsibility to clients. Each practice operates independently and enters into contracts directly with its clients, while we share a common approach to quality, communication, and long-term partnership.</p>
+    
+    <div class="grid">
+      <div class="card">
+        <h2>Accounting Practice "DT BUSINESS SOLUTIONS" LTD</h2>
+        <p>With over 15 years of experience working with diverse accounting and tax cases. The practice has an in-depth understanding of the needs of Bulgarian entrepreneurs and the role of the accountant as a mediator between business and institutions.</p>
+        <p>Provides comprehensive accounting and tax support, focusing on clear communication, reliability, and adaptability. In the context of a digital environment and a wide variety of electronic services, the practice offers the possibility of remote work with clients, making processes faster, more transparent, and more efficient.</p>
+      </div>
+      
+      <div class="card">
+        <h2>Accounting Practice "NorDia INVEST" EOOD</h2>
+        <p>Accumulated over 15 years of professional experience in accounting services for companies with different profiles and activities. The practice focuses on sustainable solutions aligned with the legal framework and the real business needs of clients.</p>
+        <p>Works in close cooperation with entrepreneurs and companies, providing accounting and tax support, communication with institutions, and timely consultations. Through the use of digital tools and remote work channels, communication with clients is optimized, and collaborative work is maximally effective.</p>
+      </div>
+    </div>
+    
+    <div class="calendar-link">
+      <h2>Book a Free Online Meeting</h2>
+      <p>(about 30 min.) where we can get to know each other, talk and answer your questions</p>
+      <a href="https://calendly.com/office-nordiainvest/30min" target="_blank" class="cta">Book Now</a>
+    </div>
+    
+    <a href="contact-en.html" class="cta">Contact Us</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>
+      This website presents a partnership between independent accounting practices. 
+      <a href="contact-en.html">Contact</a> | 
+      <a href="privacy-en.html">Privacy Policy</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+  function changeLang(lang) {
+    const current = window.location.pathname.split("/").pop();
+    if(lang === 'en') {
+      if(current === 'index.html') window.location.href = 'index-en.html';
+      else if(current === 'about.html') window.location.href = 'about-en.html';
+      else if(current === 'services.html') window.location.href = 'services-en.html';
+      else if(current === 'contact.html') window.location.href = 'contact-en.html';
+      else if(current === 'privacy.html') window.location.href = 'privacy-en.html';
+    } else if(lang === 'bg') {
+      if(current === 'index-en.html') window.location.href = 'index.html';
+      else if(current === 'about-en.html') window.location.href = 'about.html';
+      else if(current === 'services-en.html') window.location.href = 'services.html';
+      else if(current === 'contact-en.html') window.location.href = 'contact.html';
+      else if(current === 'privacy-en.html') window.location.href = 'privacy.html';
+    }
+  }
+  
+  if (localStorage.getItem('preferredLang')) {
+    const lang = localStorage.getItem('preferredLang');
+    if (lang === 'bg' && window.location.pathname.includes('-en.html')) {
+      changeLang('bg');
+    }
+  }
+  
+  document.querySelectorAll('a[onclick^="changeLang"]').forEach(link => {
+    link.addEventListener('click', function(e) {
+      const lang = this.onclick.toString().match(/changeLang\('(\w+)'\)/)[1];
+      localStorage.setItem('preferredLang', lang);
+    });
+  });
+</script>
+
+</body>
+</html>
